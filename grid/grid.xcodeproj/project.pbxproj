@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF50195F262C9C4A0022667D /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF50195E262C9C4A0022667D /* StateView.swift */; };
+		EF501967262C9E2C0022667D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF501966262C9E2C0022667D /* ListView.swift */; };
+		EF50196C262CA1AD0022667D /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF50196B262CA1AD0022667D /* BindingView.swift */; };
+		EF50196F262CB1C50022667D /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF50196E262CB1C50022667D /* ObservableObjectView.swift */; };
+		EF501972262CB5130022667D /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF501971262CB5130022667D /* UserSettings.swift */; };
 		EF8B87CB261210B500CD142E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8B87CA261210B500CD142E /* AppDelegate.swift */; };
 		EF8B87CD261210B500CD142E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8B87CC261210B500CD142E /* SceneDelegate.swift */; };
 		EF8B87CF261210B500CD142E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8B87CE261210B500CD142E /* ContentView.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF50195E262C9C4A0022667D /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		EF501966262C9E2C0022667D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		EF50196B262CA1AD0022667D /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		EF50196E262CB1C50022667D /* ObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectView.swift; sourceTree = "<group>"; };
+		EF501971262CB5130022667D /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		EF8B87C7261210B500CD142E /* grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8B87CA261210B500CD142E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF8B87CC261210B500CD142E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF50196A262CA1600022667D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B87CE261210B500CD142E /* ContentView.swift */,
+				EF50195E262C9C4A0022667D /* StateView.swift */,
+				EF501966262C9E2C0022667D /* ListView.swift */,
+				EF50196B262CA1AD0022667D /* BindingView.swift */,
+				EF50196E262CB1C50022667D /* ObservableObjectView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EF8B87BE261210B500CD142E = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +78,10 @@
 		EF8B87C9261210B500CD142E /* grid */ = {
 			isa = PBXGroup;
 			children = (
+				EF50196A262CA1600022667D /* View */,
 				EF8B87CA261210B500CD142E /* AppDelegate.swift */,
+				EF501971262CB5130022667D /* UserSettings.swift */,
 				EF8B87CC261210B500CD142E /* SceneDelegate.swift */,
-				EF8B87CE261210B500CD142E /* ContentView.swift */,
 				EF8B87D0261210B700CD142E /* Assets.xcassets */,
 				EF8B87D5261210B700CD142E /* LaunchScreen.storyboard */,
 				EF8B87D8261210B700CD142E /* Info.plist */,
@@ -147,6 +170,11 @@
 			files = (
 				EF8B87CB261210B500CD142E /* AppDelegate.swift in Sources */,
 				EF8B87CD261210B500CD142E /* SceneDelegate.swift in Sources */,
+				EF50196C262CA1AD0022667D /* BindingView.swift in Sources */,
+				EF501967262C9E2C0022667D /* ListView.swift in Sources */,
+				EF501972262CB5130022667D /* UserSettings.swift in Sources */,
+				EF50196F262CB1C50022667D /* ObservableObjectView.swift in Sources */,
+				EF50195F262C9C4A0022667D /* StateView.swift in Sources */,
 				EF8B87CF261210B500CD142E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
